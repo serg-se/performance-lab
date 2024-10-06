@@ -87,8 +87,8 @@ def print_circle_intersections(circle_path: Path, dots_path: Path) -> None:
 
 
 def main():
-    args = parse_args()
-    print_circle_intersections(**args)
+    kwargs = parse_args()
+    print_circle_intersections(**kwargs)
 
 
 if __name__ == "__main__":

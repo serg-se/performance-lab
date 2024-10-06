@@ -43,8 +43,8 @@ def print_min_turns(nums_path: Path) -> None:
 
 
 def main():
-    args = parse_args()
-    print_min_turns(**args)
+    kwargs = parse_args()
+    print_min_turns(**kwargs)
 
 
 if __name__ == "__main__":

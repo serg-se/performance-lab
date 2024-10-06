@@ -46,8 +46,8 @@ def print_circular_array_path(n: int, m: int) -> None:
 
 
 def main():
-    args = parse_args()
-    print_circular_array_path(**args)
+    kwargs = parse_args()
+    print_circular_array_path(**kwargs)
 
 
 if __name__ == "__main__":

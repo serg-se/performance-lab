@@ -101,8 +101,8 @@ def make_report(values_path: Path, tests_path: Path, report_path: Path) -> None:
 
 
 def main():
-    args = parse_args()
-    make_report(**args)
+    kwargs = parse_args()
+    make_report(**kwargs)
 
 
 if __name__ == "__main__":
